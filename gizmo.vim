@@ -1,6 +1,6 @@
 if exists('b:current_syntax') | finish | endif
 
-syn keyword type int string real char none
+syn keyword type int string real char none auto
 syn keyword key return write if while for in read else class
 syn match const '\d'
 syn region comment start="\\" end="$"
