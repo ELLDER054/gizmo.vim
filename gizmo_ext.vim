@@ -1,1 +1,1 @@
-autocmd BufNewFile, BufRead *.gizmo setf gizmo
+autocmd BufNewFile,BufRead *.gizmo setf gizmo
