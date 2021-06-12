@@ -5,6 +5,8 @@ Gizmo Extension for the Vim Editor
 Follow these steps to have syntax highlighting for all .gizmo files
 ```
 git clone https://github.com/ELLDER054/gizmo.vim.git
-cp gizmo.vim/gizmo.vim .vim/syntax
-cp gizmo_ext.vim .vim/ftdetect
+mkdir -p ~/.vim/syntax/
+cp gizmo.vim/gizmo.vim ~/.vim/syntax/
+mkdir -p ~/.vim/ftdetect/
+cp gizmo_ext.vim ~/.vim/ftdetect/
 ```
