@@ -1,7 +1,7 @@
 if exists('b:current_syntax') | finish | endif
 
-syn keyword type int string real char none auto
-syn keyword key return write if while for in read else class
+syn keyword type int string dec char Non let
+syn keyword func key return write if while for in read else class
 syn match const '\d'
 syn region comment start="\\" end="$"
 syn region comment start="\\(" end="\\)"
